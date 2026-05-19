@@ -1,10 +1,9 @@
-import {jsxLocPlugin} from "@builder.io/vite-plugin-jsx-loc";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [react(), jsxLocPlugin()],
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
