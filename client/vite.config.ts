@@ -1,4 +1,4 @@
-import jsxLocPlugin from "@builder.io/vite-plugin-jsx-loc";
+import {jsxLocPlugin} from "@builder.io/vite-plugin-jsx-loc";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import { defineConfig } from "vite";
